@@ -2,63 +2,60 @@
 @import "normalize";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 %bg_surf {
-    background: #568D99;
-    background: linear-gradient(#568D99, #91c9c1);
+  background: #568D99;
+  background: linear-gradient(#568D99, #91c9c1);
 }
 
 %font_size {
-    font-size: 1em;
-    @media (min-width: 480px) {
-        font-size: 24px;
-    }
-    @media (min-width: 720px) {
-        font-size: 36px;
-    }
-    @media (min-width: 960px) {
-        font-size: 48px;
-    }
-     @media (min-width: 1100px) {
-        font-size: 56px;
-    }
+  font-size: 1em;
+  @media (min-width: 325px) {
+    font-size: 20px;
+  }
+  @media (min-width: 480px) {
+    font-size: 32px;
+  }
+  @media (min-width: 720px) {
+    font-size: 48px;
+  }
+  @media (min-width: 960px) {
+    font-size: 56px;
+  }
 }
 
 body {
-    font-family: 'Karla', sans-serif;
-    font-size: 18px;
-    min-height: 100vh;
-    letter-spacing: .03em;
-    color: white;
-    @extend %bg_surf;
+  font-family: 'Karla', Helvetica, sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  letter-spacing: .03em;
+  color: white;
+  @extend %bg_surf;
 }
 
 .wrapper{
-    max-width: 840px;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
-    height: 100vh;
-    padding-bottom: 60px;
-    @extend %font_size;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 60px;
+  @extend %font_size;
 }
 
 p {
-    font-size: 1em;
-    margin: 0;
-    width: 100%;
+  font-size: 1em;
+  margin: 0;
 }
 
 .countdown {
-    font-size: 4em;
-    margin: 0;
-    font-weight: 400;
-    width: 100%;
+  font-size: 4em;
+  margin: 0;
+  font-weight: 400;
 }
 
 
