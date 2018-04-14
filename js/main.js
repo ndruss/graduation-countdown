@@ -1,0 +1,1 @@
+function milliseconds_to_days(n){return Math.round(n/864e5)}function difference_in_days(n,d){return milliseconds_to_days(d-n)}function display_days_til_graduation(n){var d=new Date,t=new Date(2016,11,17);n.innerHTML=difference_in_days(d,t)}var countdown=document.getElementById("countdown");countdown&&display_days_til_graduation(countdown);
