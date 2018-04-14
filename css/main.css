@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    min-height: 100vh;
+    letter-spacing: .03em;
+    color: white;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.bg_surf {
+    background: #568D99; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#568D99, #91c9c1); /* For Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(#568D99, #91c9c1); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#568D99, #91c9c1); /* Standard syntax */
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wrapper{
+    width: 90%;
+    padding: 2em 0;
+    margin: 0 auto;
+    max-width: 840px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.countdown {
+    font-size: 8.125em;
+    margin: 0;
+}
+
+
+
+
+@media only screen and (min-width: 22em) {
+    body {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    body {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    body {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    body {
+        font-size: 60px;
+    }
+}
+
+
+
