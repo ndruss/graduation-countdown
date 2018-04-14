@@ -47,6 +47,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/main.css.map",
+		"oF": 0
+		},
 	"\/css\/normalize.css": {
 		"aP": 1,
 		"bl": 0,
@@ -143,17 +150,30 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/scss\/main.scss": {
+	"\/scss\/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/main.css",
+		"oA": 1,
+		"oAP": "\/scss\/_normalize.css",
 		"oF": 0,
 		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/main.css",
+		"oF": 2,
+		"oS": 3,
 		"uL": 1
 		}
 	},
