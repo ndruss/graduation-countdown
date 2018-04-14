@@ -37,16 +37,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/css\/grid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/grid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -66,6 +56,20 @@
 		"oAP": "\/css\/normalize-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/header.php",
+		"oF": 1
 		},
 	"\/img\/.gitignore": {
 		"cB": 0,
@@ -120,6 +124,37 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/scss\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
